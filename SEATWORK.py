@@ -15,7 +15,7 @@ if Ans == 1:
     print(F"This is the new Array:{list1}")
 elif Ans == 2:
     num21 = int((input("Give number for row : ")))
-    num22 = int(9(input("Give number to insert : ")))
+    num22 = int((input("Give number to insert : ")))
     print("The element has been inserted")
     list2 = [8, 12, 50, 25, 30, 29, 60, 52, 33, 99]
     list2.insert(num21,num22)
@@ -38,4 +38,3 @@ elif Ans == 5:
     list5 = [8, 12, 50, 25, 30, 29, 60, 52, 33, 99]
     list5.sort(reverse=True)
     print(F"This is the new Array:{list5}")
-
